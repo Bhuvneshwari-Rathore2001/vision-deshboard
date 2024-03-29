@@ -5,10 +5,10 @@ const DashboardLayout = () => {
   return (
     <div
       style={{ background: "url('/assets/vision-bg.svg')" }}
-      className='flex gap-8 h-screen !bg-no-repeat !bg-cover'
+      className='flex h-screen !bg-no-repeat !bg-cover font-outfit'
     >
       <Sidebar />
-      <div className='text-white'>
+      <div className='text-white w-full px-8'>
         <Outlet />
       </div>
     </div>

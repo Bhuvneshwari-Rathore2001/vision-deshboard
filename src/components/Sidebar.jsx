@@ -65,7 +65,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className='w-72 bg-sidebarTexture backdrop-blur-[120px] rounded-3xl mt-3 ml-3 text-white'>
+    <div className='min-w-72 bg-sidebarTexture backdrop-blur-[120px] rounded-3xl mt-3 ml-3 text-white'>
       <div className='text-base text-center font-medium bg-sidebarTitleTexture bg-clip-text text-transparent py-9 px-16'>
         Vision Dashboard
       </div>
